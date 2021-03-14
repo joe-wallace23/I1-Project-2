@@ -1,0 +1,67 @@
+.gilly{
+    &__content h2.mixable{
+       font-size: 2rem;
+       color: #405263;
+    }
+    &__content p.para{
+        font-size: 1rem;
+        color: #405263;
+    }
+}
+
+.gillyJ{
+    &__content h2.mixablej{
+       font-size: 2rem;
+       color: #000;
+       text-transform: uppercase;
+    }
+    &__content p.para{
+        font-size: 1rem;
+        color: #000;
+    }
+}
+
+.current{
+    &__content h2.tees{
+        font-size: 2rem;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__content p.throw{
+        font-size: 1rem;
+        color: #000;
+    }
+}
+
+.pick{
+    &__content h1.main{
+        font-size: 2.3rem;
+        color: var(--bg-banner-color);
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    &__content h4.title{
+        font-size: 1rem;
+        color: #000;
+        text-transform: capitalize;
+        margin-bottom: .2px;
+    }
+    &__content p.para{
+        font-size: .8rem;
+        color: var(--bg-banner-color);
+    }
+    &__content del.delete{
+        font-size: .8rem;
+        color: gray;
+    }
+}
+
+
+.club{
+    &__content h2.main{
+        font-size: 1.2rem;
+        color: #000;
+        margin-bottom: 1rem;
+    }
+}

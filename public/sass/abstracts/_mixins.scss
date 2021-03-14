@@ -1,0 +1,50 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone{
+        @media (max-width:37.5em){     //600px 600/16=37.5em
+            @content
+        };
+    }
+    @if $breakpoint == tab-cells{
+        @media (max-width:50em){     //800px  800/16=50em
+            @content
+        };
+    }
+    @if $breakpoint == tab-port{
+        @media (max-width:56.25em){     //900px  900/16=56.25em
+            @content
+        };
+    }
+    @if $breakpoint == tab-you{
+        @media (max-width:61.875em){     //990px  990/16=61.875em
+            @content
+        };
+    }
+    @if $breakpoint == tab-land{
+        @media (max-width:75em){        //1200px  1200/16=75em
+            @content
+        };
+    }
+    @if $breakpoint == big-desktop{
+        @media (min-width:112.5em){       //1800  1800/16=112.5em
+            @content
+        };
+    }
+}
+
+@mixin smallB {
+    font-size: .8rem;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: .7rem 1.9rem;
+    border: .1rem solid #000;
+    text-decoration: none;
+    border-radius: .1rem;
+    &:hover{
+        color: #000;
+        text-decoration: none;
+    } 
+     &:not(:last-child){
+        margin-right: 1rem;
+    }
+}

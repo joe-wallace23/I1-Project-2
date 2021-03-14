@@ -1,0 +1,59 @@
+.navbar{
+    background-color: var(--navbar-color);
+
+    &-brand img{
+        width: 5rem;
+    }
+}
+
+.nav{
+    &-link{
+        font-size: .9rem;
+        color: #fff !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    &__list{
+        margin-top: 1rem;
+        list-style: none;
+    }
+    &__items{
+        display: inline-block;
+    }
+    &__items:not(:last-child){
+      margin-right: 1.2rem;
+    }
+    &__icon{
+        width: 1.2rem;
+        height: 1.2rem;
+        fill: #fff;
+    }
+}
+
+.ml-auto{
+    margin-left: auto !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}

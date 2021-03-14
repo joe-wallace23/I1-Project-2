@@ -1,0 +1,26 @@
+.gilly{
+    margin: 1rem 0;
+    padding-top: 6rem;
+    background-image: url(/images/mixable-matchable-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+  &__images{
+      margin-bottom: .5rem;
+  }
+    &__images img{
+        width: 13rem;
+        height: 4rem;
+    }
+}
+.gillyJ{
+    margin: 1rem 0;
+    padding-top: 12rem;
+    background-image: url(/images/Jeans-that-shred-the-compet-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+
+}

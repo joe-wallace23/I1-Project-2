@@ -1,0 +1,79 @@
+.bottom{
+    padding: 3rem 1.2rem 1rem 1.2rem;
+    background-color: #f2f3f4 ;
+    height: 100%;
+
+    &__content h3.main{
+        font-size: 1.1rem;
+        color: #000;
+        margin-bottom: .8rem;
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item:not(:last-child){
+        margin-bottom: .5rem;
+    }
+    &__link{
+        font-size: .8rem;
+        color: gray;
+        text-transform: capitalize;
+        text-decoration: none;
+        &:hover{
+            color: gray;
+            text-decoration: none;
+        }
+    }
+    &__button{
+        margin-top: 1rem;
+    }
+    &__linkf{
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #291a33;
+        border: .1rem solid transparent;
+        padding: .5rem 2rem;
+        text-decoration: none;
+        border-radius: 5rem;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__content h4.trend{
+        font-size: 1.1rem;
+        color: #000;
+        text-transform: capitalize;
+        margin: 1rem 0 .5rem 0;
+    }
+    &__content p.para{
+        font-size: .8rem;
+        color: gray;
+    }
+    &__listT{
+        margin-top: 1.5rem;
+        list-style: none;
+    }
+    &__itemT{
+        display: inline-block;
+    }
+    &__itemT:not(:last-child){
+        margin-right: 2rem;
+    }
+    &__icon{
+        width: 1.4rem;
+        height: 1.4rem;
+        fill:#494d59;
+    }
+}
+
+.bottom .form-group .form-control{
+    height: 4rem;
+}
+.bottom .form-group .form-control[type="email"]{
+    outline: 0;
+    box-shadow: none !important;
+    border: .1rem solid gray;
+}

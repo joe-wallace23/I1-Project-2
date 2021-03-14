@@ -1,0 +1,25 @@
+.limited{
+    padding: .5rem 0;
+    background-color: var(--bg-banner-color);
+
+    &__content h5.limits{
+        font-size: .8rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+.up{
+    padding: 1rem 0;
+    height: 100%;
+    background-color: var(--bg-banner-color);
+     &__content h3.title{
+         font-size: 1rem;
+         color: #fff;
+         text-transform: uppercase;
+     }
+     &__content h2.sub{
+        font-size: 1.7rem;
+         color: #fff;
+         text-transform: uppercase;
+     }
+}
